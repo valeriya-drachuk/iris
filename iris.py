@@ -24,7 +24,7 @@ print(df.tail())
 print(df.describe())
 print(df.info())
 
-### Create new df's for species
+### Create new dataframes for species
 setosa = df[df['class'] == 'setosa']
 virginica = df[df['class'] == 'virginica']
 versicolor = df[df['class'] == 'versicolor']
